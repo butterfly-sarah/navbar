@@ -1,27 +1,31 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins';
 }
 div{
-    padding: 20px 5px;
-    width: 55px;
+    padding: 20px 12px;
+    width: 40px;
     margin-left: 50px;
     margin-top: 10%;
-    border-radius: 5px;
+    border-radius: 32px;
     line-height: 50px;
-    background: linear-gradient(blueviolet,rgb(76, 195, 121));
+    background: linear-gradient(rgb(76, 195, 121),rgb(124, 124, 124));
     text-align: center;
 }
 hr{
     margin: 10px 0px;
 }
 i{
-    font-size: 30px;
+    font-size: 22px;
     display: inline-block;
     filter: invert(1);
 }
+#log{
+    transform: rotate(180deg);
+}
 span{
-    font-size: 30px;
+    font-size: 20px;
     color: white;
     display: none;
 }
@@ -31,4 +35,5 @@ span:hover{
 }
 i:hover{
     cursor: pointer;
+    font-size: 24px;
 }

@@ -1,7 +1,7 @@
 div=document.querySelector("div");
 span=document.querySelectorAll("span");
 function showList(){
-    div.style.width="260px";
+    div.style.width="235px";
     var i;
     for (i = 0; i < span.length; i++) {
         span[i].style.display="inline-block";
@@ -10,7 +10,7 @@ function showList(){
     }
 }
 function out(){
-    div.style.width="55px";
+    div.style.width="40px";
     for (i = 0; i < span.length; i++) {
         span[i].style.display="none";
     }
