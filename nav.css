@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    padding: 20px 5px;
+    width: 55px;
+    margin-left: 50px;
+    margin-top: 10%;
+    border-radius: 5px;
+    line-height: 50px;
+    background: linear-gradient(blueviolet,rgb(76, 195, 121));
+    text-align: center;
+}
+hr{
+    margin: 10px 0px;
+}
+i{
+    font-size: 30px;
+    display: inline-block;
+    filter: invert(1);
+}
+span{
+    font-size: 30px;
+    color: white;
+    display: none;
+}
+span:hover{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255,0.1);
+}
+i:hover{
+    cursor: pointer;
+}
